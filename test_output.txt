@@ -1,0 +1,10 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.0.1, pluggy-1.6.0
+rootdir: C:\Users\valtecir\Desktop\Projetos\Api-bot-arandu
+plugins: anyio-4.12.0
+collected 3 items
+
+test_dummy.py .                                                          [ 33%]
+test_main.py ..                                                          [100%]
+
+============================== 3 passed in 0.79s ==============================
