@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8000
 
 # Define o comando de inicialização
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "main:app", "--bind", "0.0.0.0:8000"]
+CMD exec gunicorn --bind 0.0.0.0:$PORT -w 4 -k uvicorn.workers.UvicornWorker main:app
